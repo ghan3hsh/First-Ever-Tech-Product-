@@ -1,0 +1,190 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .container{
+    border: 1px solid rgb(179, 26, 26);
+    padding: 10px;
+    width: 600px;
+  }
+
+  h1{
+    border: 1px solid rgb(179, 26, 26);
+    width: 280px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0%;
+    /* control text sizing */
+  }
+  
+.father-of-boxes{
+display: flex;
+border: 1px solid rgb(179, 26, 26);
+justify-content:space-around;
+margin-left: 4px;
+margin-right: 4px;
+padding-bottom: 5px;
+/* this margin just to make the border skew to the right like the example given in slides */
+}
+
+    .box-1-dad{
+    border: 1px solid lightgreen;
+    display: flex;
+    align-items:flex-start;
+    /* flexbox to control image direction within the border */
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    display: flex;
+    transition: ease-in-out 0.6s ;
+  }
+
+  img:hover{
+    transform:scale(1.25);
+  }
+
+  .box-1-child{
+    height: 55px;
+    width: 50px;
+    margin: 0 2px 0 2px;
+    /* this is to adjust green line gaps to image inside */
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    /* flexbox to control text direction */
+    
+  }
+
+  .box-1-child-text{
+    position: absolute ;
+    color: white;
+    font-size: 0.6em;
+    padding-top: 1px;
+    /* this padding just to make the text go lower */
+  }
+
+  .box-2{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: top;
+  }
+
+  .box-2-text{
+    position: absolute ;
+    color: white;
+    font-size: 0.6em;
+    padding-top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+  }
+
+  .box-3{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: top;
+  }
+
+  .box-3-text{
+    position: absolute ;
+    color: white;
+    font-size: 0.6em;
+    padding-top: 1px;
+  }
+
+  .box-4{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: center;
+    align-items: top;
+  }
+
+  .box-4-text{
+    position: absolute ;
+    color: white;
+    font-size: 0.6em;
+    padding-top: 1px;
+  }
+
+  .box-5{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: top;
+  }
+
+  .box-5-text{
+    position: absolute ;
+    color: white;
+    font-size: 0.6em;
+    padding-top: 1px;
+  }
+
+  .box-6{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: top;
+  }
+
+  .box-6-text{
+    position: absolute ;
+    color: white;
+    font-size: 0.6em;
+    padding-top: 1px;
+  }
+  
+  /* .grandparent{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .parent{
+    height: 75px;
+    width: 75px;
+    margin: 5px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .child{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .grandchild{
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+    background-color: orange;
+  }  */
